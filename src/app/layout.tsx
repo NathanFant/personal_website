@@ -15,14 +15,14 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nathan Fant — Full-Stack Engineer & QE",
+  title: "Nathan Fant//Full-Stack Engineer & QE",
   description:
     "Full-Stack Engineer and Quality Engineer specializing in TypeScript, React, Python, Playwright, and Vitest. OSS contributor. Hack Reactor 2025.",
   icons: {
     icon: "/nf_logo.png",
   },
   openGraph: {
-    title: "Nathan Fant — Full-Stack Engineer & QE",
+    title: "Nathan Fant//Full-Stack Engineer & QE",
     description: "Building full-stack systems and fixing real bugs in production codebases with proper test coverage.",
     url: "https://nathanfant.dev",
     siteName: "Nathan Fant",
