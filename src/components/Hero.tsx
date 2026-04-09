@@ -1,8 +1,15 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="section pt-36 pb-24">
-      <p className="font-mono text-sm text-accent mb-4">hi, I&apos;m</p>
-      <h1 className="text-5xl font-semibold text-text mb-4 tracking-tight">Nathan Fant</h1>
+      <div className="flex flex-col items-start gap-4 mb-6 sm:flex-row sm:items-center">
+        <Image src="/nf_logo.png" width={64} height={64} alt="Nathan Fant logo" className="rounded-full" />
+        <div>
+          <p className="font-mono text-sm text-accent mb-2">hi, I&apos;m</p>
+          <h1 className="text-5xl font-semibold text-text tracking-tight">Nathan Fant</h1>
+        </div>
+      </div>
       <div className="flex flex-wrap gap-2 mb-6">
         <span className="font-mono text-sm px-3 py-1 rounded-full border border-accent text-accent">Full-Stack Engineer</span>
         <span className="font-mono text-sm px-3 py-1 rounded-full border border-green text-green">Quality Engineer</span>
