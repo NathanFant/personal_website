@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
+const title = "// Nathan Fant";
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -15,14 +17,14 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nathan Fant//Full-Stack Engineer & QE",
+  title: title,
   description:
     "Full-Stack Engineer and Quality Engineer specializing in TypeScript, React, Python, Playwright, and Vitest. OSS contributor. Hack Reactor 2025.",
   icons: {
     icon: "/nf_logo.png",
   },
   openGraph: {
-    title: "Nathan Fant//Full-Stack Engineer & QE",
+    title: title,
     description: "Building full-stack systems and fixing real bugs in production codebases with proper test coverage.",
     url: "https://nathanfant.dev",
     siteName: "Nathan Fant",
