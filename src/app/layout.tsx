@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import ThemeOverride from "@/components/ThemeOverride";
 
 const title = "// Nathan Fant";
 
@@ -34,7 +35,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${mono.variable}`}>
-      <body className="antialiased font-sans bg-bg text-text">{children}</body>
+      <body className="antialiased font-sans bg-bg text-text">
+        <ThemeOverride />
+        {children}
+      </body>
     </html>
   );
 }
