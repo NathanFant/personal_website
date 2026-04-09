@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="section pt-36 pb-24">
       <div className="flex flex-col items-start gap-4 mb-6 sm:flex-row sm:items-center">
-        <Image src="/nf_logo.png" width={64} height={64} alt="Nathan Fant logo" className="rounded-full" />
+        <Image src="/nf_logo_black.png" width={64} height={64} alt="Nathan Fant logo" className="rounded-full dark:hidden" />
         <div>
           <p className="font-mono text-sm text-accent mb-2">hi, I&apos;m</p>
           <h1 className="text-5xl font-semibold text-text tracking-tight">Nathan Fant</h1>

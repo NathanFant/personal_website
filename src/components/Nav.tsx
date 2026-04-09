@@ -5,7 +5,7 @@ export default function Nav() {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-bg/80 backdrop-blur-sm">
       <div className="max-w-3xl mx-auto px-6 min-h-[3.5rem] flex flex-wrap items-center justify-between gap-3 py-2">
         <a href="/" className="flex items-center gap-3">
-          <Image src="/nf_logo.png" width={32} height={32} alt="Nathan Fant logo" className="rounded-full" />
+          <Image src="/nf_logo_black.png" width={32} height={32} alt="Nathan Fant logo" className="rounded-full dark:hidden" />
           <span className="font-mono text-sm text-accent">nathanfant</span>
         </a>
         <div className="flex flex-wrap items-center gap-4 font-mono text-sm text-muted w-full justify-center sm:w-auto sm:justify-end">
